@@ -109,7 +109,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-block: 35px;
+    padding-block: 35px 20px;
     gap: 20px;
 }
 
