@@ -19,9 +19,7 @@ function LandingPage() {
 
               <div className = "landing-page-btn-label">
                   <p>Already have an account? <strong><a href='/login'>Log in here!</a></strong></p>
-              </div>
-              <div>
-                <p>Wonder how to use our Website? <strong><a href={user_manual}>Click here! </a></strong> </p>
+                  <p style={{"font-size": "calc(13px + 0.2vw)"}}>Wonder how to use our Website? <strong><a href={user_manual}>Click here! </a></strong> </p>
               </div>
           </div>
       </div>

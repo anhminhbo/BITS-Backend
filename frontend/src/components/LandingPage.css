@@ -52,7 +52,7 @@ html, body {
     padding: 0;
     font-family: 'Quicksand', sans-serif;
     font-weight: 700;
-    font-size: calc(20px + 6vw);
+    font-size: calc(20px + 4vw);
 }
 
 .landing-page-title h3 {
@@ -106,6 +106,15 @@ html, body {
     font-family: 'Quicksand', sans-serif;
     font-size: calc(13px + 0.7vw);
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 35px 20px;
+    gap: 20px;
+}
+
+.landing-page-btn-label p {
+    margin: 0;
 }
 
 .landing-page-btn-label a {
